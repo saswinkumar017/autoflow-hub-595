@@ -17,16 +17,40 @@ const Footer = () => {
               </p>
             </div>
             <div className="flex space-x-4">
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a 
+                href="https://www.facebook.com/AutoHubAutomation"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Visit AutoHub on Facebook"
+                className="text-gray-400 hover:text-blue-400 transition-colors"
+              >
                 <Facebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a 
+                href="https://twitter.com/AutoHubAutomation"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Visit AutoHub on Twitter"
+                className="text-gray-400 hover:text-blue-400 transition-colors"
+              >
                 <Twitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a 
+                href="https://www.linkedin.com/company/autohub-automation"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Visit AutoHub on LinkedIn"
+                className="text-gray-400 hover:text-blue-400 transition-colors"
+              >
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-400 hover:text-blue-400 transition-colors">
+              <a 
+                href="https://www.instagram.com/autohubautomation"
+                target="_blank"
+                rel="noreferrer"
+                aria-label="Visit AutoHub on Instagram"
+                className="text-gray-400 hover:text-blue-400 transition-colors"
+              >
                 <Instagram className="h-5 w-5" />
               </a>
             </div>
@@ -117,15 +141,15 @@ const Footer = () => {
               © 2024 AutoHub. All rights reserved.
             </div>
             <div className="flex space-x-6 md:justify-end">
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
+              <Link to="/privacy" className="text-gray-400 hover:text-white text-sm transition-colors">
                 Privacy Policy
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
+              </Link>
+              <Link to="/terms" className="text-gray-400 hover:text-white text-sm transition-colors">
                 Terms of Service
-              </a>
-              <a href="#" className="text-gray-400 hover:text-white text-sm transition-colors">
+              </Link>
+              <Link to="/cookies" className="text-gray-400 hover:text-white text-sm transition-colors">
                 Cookie Policy
-              </a>
+              </Link>
             </div>
           </div>
         </div>
